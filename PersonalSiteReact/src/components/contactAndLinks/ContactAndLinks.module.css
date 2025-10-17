@@ -1,0 +1,14 @@
+
+.contactAndLinksContainer {
+    display: flex;
+    height: fit-content;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    /* padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(10, 10, 10, 0.8); */
+}
