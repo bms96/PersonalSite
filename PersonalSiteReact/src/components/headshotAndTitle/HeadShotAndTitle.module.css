@@ -10,12 +10,15 @@
     justify-content: center;
     height: fit-content;
     width: fit-content;
-    margin: auto;
+    /* margin: auto; */
+    /* margin-top: 5rem; */
     gap: 1rem;
 
     padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px rgba(10, 10, 10, 0.8);
+
+    flex-shrink: 30;
 }
 
 /* Profile picture */
@@ -39,6 +42,8 @@
     /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .nameDiv {
@@ -50,6 +55,7 @@
 
 .nameText {
     /* border: 1px solid red; */
+    text-align: center;
 }
 
 .titleDiv {
@@ -63,6 +69,7 @@
 .titleText {
     /* border: 1px solid red; */
     /* font-size: 0.9rem; */
+    text-align: center;
 }
 
 .locationDiv {
@@ -76,7 +83,16 @@
 .locationText {
     /* border: 1px solid red; */
     /* font-size: 0.9rem; */
+    text-align: center;
     opacity: 0.7;
 }
 
 /* Links */
+
+.linksDiv {
+    /* border: 1px solid green; */
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-top: 1rem;
+}

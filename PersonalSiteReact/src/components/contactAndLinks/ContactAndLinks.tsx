@@ -11,19 +11,22 @@ function ContactInfo() {
 function Links() {
     return (
         <div className={styles.profilePictureTitleContainer}>
-            <button>
-                <a href="https://www.linkedin.com/in/bryan-santini-62343a202" target="_blank">LinkedIn</a>
-            </button>
-        </div>
+  <a
+    className={styles.linkInButton}
+    href="https://www.linkedin.com/in/bryan-santini-62343a202"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    LinkedIn
+  </a>
+</div>
+
     )
 }
 
 export function ContactAndLinks() {
     return (
         <div className={styles.contactAndLinksContainer}>
-            {/* <div>
-                <ContactInfo />
-            </div> */}
             <div>
                 <Links />
             </div>

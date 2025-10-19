@@ -7,8 +7,21 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
 
-    /* padding: 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 6px rgba(10, 10, 10, 0.8); */
+.linkInButton {
+  display: inline-block; /* Make it behave like a button */
+  background-color: #0a66c2;
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+  transition: filter 0.1s ease-in-out;
+}
+
+.linkInButton:hover {
+  color: white;
+  filter: drop-shadow(0 0 0.1rem #0a66c2);
 }
