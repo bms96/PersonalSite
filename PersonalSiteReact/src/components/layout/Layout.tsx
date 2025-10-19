@@ -18,7 +18,7 @@ export function Layout() {
               Delivering software that provides a positive and measurable impact is my passion.
             </p>
             <p>
-              If you are an individual or business who can benefit from new or improved technology, please feel free to reach out to me via the LinkedIn button.
+              If you are an individual or business who can benefit from my services, please feel free to reach out to me via the LinkedIn button.
             </p>
             {/* deliver feature development, maintenance, deployment, full rewrites, and building applications from the ground up. */}
           </div>
@@ -35,7 +35,7 @@ export function Layout() {
         {/* About me */}
         <div className={styles.servicesProvidedSection}>
           <div className={styles.servicesProvidedTitleDiv}>
-            <h2>Services offered</h2>
+            <h2 className={styles.servicesProvideTitleText}>Services offered</h2>
           </div>
 
           <div className={styles.servicesContainer}>
