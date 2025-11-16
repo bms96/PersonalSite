@@ -1,6 +1,4 @@
-import { ContactAndLinks } from '../contactAndLinks/ContactAndLinks';
 import { HeadShotAndTitle } from '../headshotAndTitle/HeadShotAndTitle';
-import { Projects } from '../projects/Projects';
 import styles from './Layout.module.css'
 
 export function Layout() {

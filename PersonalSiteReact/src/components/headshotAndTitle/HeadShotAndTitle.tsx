@@ -4,7 +4,7 @@ import styles from './HeadShotAndTitle.module.css'
 function ProfilePicture() {
     return (<>
         <img className={styles.profilePicture} 
-        src="https://media.licdn.com/dms/image/v2/D5603AQG87PGlBdJgFQ/profile-displayphoto-scale_400_400/B56ZnP0UcQI8Ag-/0/1760128223729?e=1762992000&v=beta&t=CyRlyLGF5VRLy3vsWkBFXTu-c8tyqxMG8_8lUNGtm-4" 
+        src="/profilepicture.jpeg" 
         alt="Headshot" 
         />
     </>)

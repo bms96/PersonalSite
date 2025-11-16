@@ -1,12 +1,12 @@
 import styles from './ContactAndLinks.module.css'
 
-function ContactInfo() {
-    return (
-        <div>
-            <p>Email: bryansantini@yahoo.com</p>
-        </div>
-    )
-}
+// function ContactInfo() {
+//     return (
+//         <div>
+//             <p>Email: bryansantini@yahoo.com</p>
+//         </div>
+//     )
+// }
 
 function Links() {
     return (
